@@ -27,47 +27,67 @@ and containerized using **Docker** and **Docker Compose**.
 
 ## 📁 Project Structure
 
-
+```text
 State-Management-System/
 │
 ├── SteCtyAreaFE/
 │   └── myapp/
 │       ├── Dockerfile
+│       ├── .dockerignore
 │       ├── package.json
+│       ├── public/
 │       └── src/
 │
 ├── SteCtyAreaBE/
 │   └── new/
 │       ├── Dockerfile
+│       ├── .dockerignore
 │       ├── pom.xml
-│       └── src/
+│       ├── src/
+│       └── target/
 │
 ├── docker-compose.yml
 │
 └── README.md
+```
 
+---
 
-✨ Features
+## ✨ Features
 
-- Add State
-- Update State
-- Delete State
-- View States
+### 🌍 State Management
 
-- Add City
-- Update City
-- Delete City
-- View Cities
+* Add State
+* View States
+* Update State
+* Delete State
 
-- Add Area
-- Update Area
-- Delete Area 
-- View Areas
+### 🏙️ City Management
 
+* Add City
+* View Cities
+* Update City
+* Delete City
 
-- REST API Integration
-- MySQL Database Connectivity
-- Dockerized Full Stack Application
+### 📍 Area Management
+
+* Add Area
+* View Areas
+* Update Area
+* Delete Area
+
+### 🚀 Application Features
+
+* REST API Integration
+* Spring Boot Backend
+* React Frontend
+* MySQL Database Connectivity
+* Dockerized Full Stack Application
+* Multi-Container Deployment using Docker Compose
+* Persistent Database Storage using Docker Volumes
+* Docker Health Checks for MySQL
+* Optimized Multi-Stage Docker Builds
+
 
 ## 🐳 Docker Architecture
 
