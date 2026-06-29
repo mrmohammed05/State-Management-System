@@ -143,25 +143,22 @@ Execute Commands Inside a Running Container
 Terminal docker exec -it mysql-db mysql -u root -p                                            
         password :- root
 
-## 📦 Docker Command
+## 🐳 Docker Commands
+
+```bash
+# Docker Commands
 docker images
 docker ps
 docker ps -a
 docker logs <container-name>
+
+# Docker Compose Commands
 docker compose up --build -d
 docker compose down
 docker compose restart
-
-
-
-
-
-
-
-
-
-
-
+docker compose logs
+docker compose ps
+```
 ---
 
 ## 👨‍💻 Author
