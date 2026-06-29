@@ -27,19 +27,18 @@ and containerized using **Docker** and **Docker Compose**.
 ## 📁 Project Structure
 
 State-Management-System/
-│
 ├── SteCtyAreaFE/
 │   └── myapp/
 │       ├── Dockerfile
 │       ├── package.json
 │       └── src/
-│
+
 ├── SteCtyAreaBE/
 │   └── new/
 │       ├── Dockerfile
 │       ├── pom.xml
 │       └── src/
-│
+
 └── docker-compose.yml
 
 ✨ Features
